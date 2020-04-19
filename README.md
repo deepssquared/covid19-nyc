@@ -82,38 +82,38 @@ Using Foursquare, we downloaded geodata on the closest locations resulting from 
 For each of these models, we partitioned our dataset into 80% training data and 20% testing data. We started with the most flexible model and progressed to the most stringent one.
 
 #### Number of positive cases vs total population 
-Model | R^2 | RMSE
-------------- | ------------- | -------------
-Linear Regression  | 0.02 | 253.14       
-Ridge Regression | 0.02  | 253.15       
-kNN | 0.52 | 255.14       
+| Model | R^2 | RMSE |
+| ------------- | ------------- | ------------- |
+| Linear Regression  | 0.02 | 253.14 |       
+| Ridge Regression | 0.02  | 253.15 |       
+| kNN | 0.52 | 255.14 |       
 
 #### Total COVID-19 tests (regardless of test result) vs total population
 
-Model | R^2 | RMSE
-------------- | ------------- | -------------
-Linear Regression  | 0.15 | 376.20            
-Ridge Regression | 0.15 | 376.20            
-kNN | 0.36 | 447.51     
+| Model | R^2 | RMSE |
+| ------------- | ------------- | ------------- |
+| Linear Regression  | 0.15 | 376.20 |            
+| Ridge Regression | 0.15 | 376.20 |            
+| kNN | 0.36 | 447.51 |     
 
 #### Day in April vs proportion of population testing positive for COVID-19
-Model | R^2 | RMSE
-------------- | ------------- | -------------
-Linear Regression  | - 0.72      |    0        
-Ridge Regression | - 0.72      |    0    
-kNN | N/A | 625.72     
+| Model | R^2 | RMSE |
+| ------------- | ------------- | ------------- |
+| Linear Regression  | - 0.72      |    0 |        
+| Ridge Regression | - 0.72      |    0 |    
+| kNN | N/A | 625.72 |     
 
 ####  Proportion of population testing positive for COVID-19 vs the median income
-Model | R^2 | RMSE
-------------- | ------------- | -------------
-Linear Regression  | -7.41 | 0.00           
-Ridge Regression | -7.42| 0.00            
+| Model | R^2 | RMSE |
+| ------------- | ------------- | ------------- |
+| Linear Regression  | -7.41 | 0.00 |           
+| Ridge Regression | -7.42| 0.00 |            
 
 ####  COVID-19 rate = Date + Median Income + Zip Code Population 
-Model | R^2 | RMSE
-------------- | ------------- | -------------
-Linear Regression  | -0.15  | 0.00            
-Ridge Regression |  -0.15 | 0.00            
+| Model | R^2 | RMSE |
+| ------------- | ------------- | ------------- |
+| Linear Regression  | -0.15  | 0.00 |            
+| Ridge Regression |  -0.15 | 0.00 |            
 
 **Fitted model**: COVID-19 proportion = 0.00856069 + -8.39835811e-08  * (Median Income) + 6.40945643e-04 * (Date) +  -3.00243272e-08 *(Population in Zip Code)
 
