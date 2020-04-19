@@ -1,5 +1,5 @@
 # COVID-19 in New York City
- 
+ *Data Science Capstone*
 ## Introduction
 
 The COVID-19 pandemic has devastated New York City. Not since 9/11 has the city faced such a crisis. One factor driving both economic decline and increased fatalities is the pronounced public health disparities in NYC. Several politicians have referred to New York as a “tale of two cities”: one in which certain individuals prosper and others spiral due to poverty. Boroughs such as the Bronx and Queens, containing the majority of the city’s working class population, have been disproportionately affected by both COVID-19 cases and deaths. 
