@@ -25,7 +25,7 @@ Fourteen datasets for each day in April, containing positive and total test coun
 The following table lists the primary features of interest:
 
 Variable Name | Variable Definition | Measurements 
-			 ------------ | ------------- | -------------
+------------- | ------------- | -------------
 *date* |**Days since 3/31/2020** | min = 1, max = 15
 *Positive* | **Positive Tests** | In the 13 days analyzed, an average of **467** COVID-19 tests were positive per zip code.
 *Total* | **Test Counts** | In the 13 days analyzed, an average of **815** COVID-19 tests were completed per zip code.
