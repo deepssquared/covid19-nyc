@@ -82,6 +82,7 @@ Using Foursquare, we downloaded geodata on the closest locations resulting from 
 For each of these models, we partitioned our dataset into 80% training data and 20% testing data. We started with the most flexible model and progressed to the most stringent one.
 
 #### Number of positive cases vs total population 
+
 | Model | R^2 | RMSE |
 | ------------- | ------------- | ------------- |
 | Linear Regression  | 0.02 | 253.14 |       
@@ -97,6 +98,7 @@ For each of these models, we partitioned our dataset into 80% training data and 
 | kNN | 0.36 | 447.51 |     
 
 #### Day in April vs proportion of population testing positive for COVID-19
+
 | Model | R^2 | RMSE |
 | ------------- | ------------- | ------------- |
 | Linear Regression  | - 0.72      |    0 |        
@@ -104,12 +106,14 @@ For each of these models, we partitioned our dataset into 80% training data and 
 | kNN | N/A | 625.72 |     
 
 ####  Proportion of population testing positive for COVID-19 vs the median income
+
 | Model | R^2 | RMSE |
 | ------------- | ------------- | ------------- |
 | Linear Regression  | -7.41 | 0.00 |           
 | Ridge Regression | -7.42| 0.00 |            
 
 ####  COVID-19 rate = Date + Median Income + Zip Code Population 
+
 | Model | R^2 | RMSE |
 | ------------- | ------------- | ------------- |
 | Linear Regression  | -0.15  | 0.00 |            
